@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <header id="header">
+        <nav id="nav-bar">
+            <div class="logo-container">
+                <img src="https://cdn.dribbble.com/users/2591263/screenshots/9252122/media/99818180a6bada1d3f3b6d9077a84561.jpg" alt="logo"
+                id="header-img"
+                />
+                <span class="the-product">Classic Books</span>
+            </div>
+                <ul class="nav-links">
+                    <li><a href="#features" class="nav-link">Features</a></li>
+                    <li><a href="#audio" class="nav-link">Free Audio Book</a></li>
+                    <li><a href="#for-sale" class="nav-link">For Sale</a></li>
+                </ul>
+        </nav>
+    </header>
+    <section id="email-section">
+        <h2>Masterpieces</h2>
+        <form action="" id="form">
+            <input id="email" type="email" required placeholder="Enter your email address" name="email">
+            <input type="submit" id="submit" value="Get Started">
+        </form>
+    </section>
+    <section id="features">
+        <div class="feature">
+            <i class="ri-file-paper-fill ri-4x icon"></i>
+            <div>
+                <h2>Premium Material</h2>
+            </div>
+        </div>
+        <div class="feature">
+            <i class="ri-truck-fill ri-4x icon"></i>
+            <div>
+                <h2>Free Shipping</h2>
+            </div>
+        </div>
+        <div class="feature">
+            <i class="ri-book-open-line ri-4x icon"></i>
+            <div>
+                <h2>Quality Books Only</h2>
+            </div>
+        </div>
+    </section>
+    <section id="audio">
+        <iframe
+            id="video"
+            height="315" 
+            src="https://www.youtube.com/embed/7lXQ53fB3sA?si=iNNozcB7u10R48JI" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+        </iframe>
+    </section>
+    <section id="for-sale">
+        <h2>For Sale</h2>
+        <div class="product-cards">
+            <div class="card">
+                <div class="product-image product1"></div>
+                <div class="inner-card">
+                    <div class="author">Stephen King</div>
+                    <h1 class="header">The Shining</h1>
+                    <p class="content">
+                        That truth is that monsters are real, and ghosts are real, too. They live inside us, and sometimes they win.
+                    </p>
+                    <div class="flex">
+                        <p class="main-price">₹759.00</p>
+                        <p class="old-price">₹829.17</p>
+                    </div>
+                    <button class="add">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
